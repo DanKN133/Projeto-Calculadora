@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</head>
+<body>
+    <section class="section-calc">
+        <div class="calc-wrapper">
+            <div class="calc-output">
+                <div  data-previous-operand ></div>
+                <div data-current-operand class="current-operand" style="font-size: 30px;"></div>
+            </div>
+            
+            <button data-all-clear class="span-two" id="orange">C</button>
+                <button data-delete><i class="fas fa-backspace" style="font-size: 25px;"></i></button>
+                <button data-operation>÷</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation>*</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation>-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation>+</button>
+                <button data-number id="border-left">.</button>
+                <button data-number>0</button>
+                <button data-equals class="span-two" id="border-right">=</button>
+        </div>
+    </section>
+</body>
+</html>
